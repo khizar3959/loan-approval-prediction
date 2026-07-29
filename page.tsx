@@ -324,6 +324,12 @@ export default function Home() {
                   onChange={handleChange}
                   className="form-select"
                 >
+                  <option value="12">12 (1 Year)</option>
+                  <option value="24">24 (2 Years)</option>
+                  <option value="36">36 (3 Years)</option>
+                  <option value="48">48 (4 Years)</option>
+                  <option value="60">60 (5 Years)</option>
+                  <option value="84">84 (7 Years)</option>
                   <option value="120">120 (10 Years)</option>
                   <option value="180">180 (15 Years)</option>
                   <option value="240">240 (20 Years)</option>
